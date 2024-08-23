@@ -37,19 +37,7 @@
     </script>
   </head>
   <body>
-    <!-- <button class="btn btn-neutral">Bangladesh</button>
-    <button class="btn btn-primary">Bangladesh</button>
-    <button class="btn btn-secondary">Bangladesh</button>
-    <button class="btn btn-accent">Bangladesh</button>
-    <button class="btn btn-info">Bangladesh</button>
-    <button class="btn btn-success">Bangladesh</button>
-    <button class="btn btn-warning">Bangladesh</button>
-    <button class="btn btn-error">Bangladesh</button>
-    <button class="btn btn-ghost">Bangladesh</button>
-    <button class="btn btn-link">Bangladesh</button>
-    <button class="btn btn-outline">Bangladesh</button>
-    <button class="btn btn-active">Bangladesh</button>
-    <button class="btn btn-disabled">Bangladesh</button> -->
+    
 
     <!-- Button sample  -->
 
