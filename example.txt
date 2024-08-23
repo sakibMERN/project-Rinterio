@@ -37,7 +37,7 @@
     </script>
   </head>
   <body>
-    <button class="btn btn-neutral">Bangladesh</button>
+    <!-- <button class="btn btn-neutral">Bangladesh</button>
     <button class="btn btn-primary">Bangladesh</button>
     <button class="btn btn-secondary">Bangladesh</button>
     <button class="btn btn-accent">Bangladesh</button>
@@ -49,7 +49,15 @@
     <button class="btn btn-link">Bangladesh</button>
     <button class="btn btn-outline">Bangladesh</button>
     <button class="btn btn-active">Bangladesh</button>
-    <button class="btn btn-disabled">Bangladesh</button>
+    <button class="btn btn-disabled">Bangladesh</button> -->
+
+    <!-- Button sample  -->
+
+    <a class="btn bg-arrow rounded-[32px]">Book Consult
+      <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-black text-white">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+      </svg>
+    </a>
     
   </body>
 </html>
