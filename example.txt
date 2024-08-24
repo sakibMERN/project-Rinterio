@@ -58,7 +58,7 @@
 
 
     <-- Sub-section title -->
-     class="text-[20px] text-[#494949] font-bold leading-[26px] "
+     class="text-[20px] text-[#494949] font-bold leading-[26px]"
 
     <--Sub-section description-->
 
