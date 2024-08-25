@@ -6,7 +6,7 @@
     <title>Project-Rinterio</title>
 
     <!-- CSS  -->
-     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- Font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,7 +24,10 @@
     />
     <!-- Font Awsome CDN  -->
 
-    <script src="https://kit.fontawesome.com/e7d365f835.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e7d365f835.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -34,7 +37,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
-              "arrow": "#ABEF5F",
+              arrow: "#ABEF5F",
             },
             fontFamily: {
               manrope: ["Manrope", "sans-serif"],
@@ -46,93 +49,156 @@
   </head>
   <body class="font-manrope">
     <!-- Header section  -->
-    <header class="lg:w-4/5 px-5 md:px-0 mt-12 mx-auto bg-gradient-to-t from-[#ffffff] to-[rgba(#ffffff00] mb-10 md:mb-32">
+    <header
+      class="lg:w-4/5 px-5 md:px-0 mt-12 mx-auto bg-gradient-to-t from-[#ffffff] to-[rgba(#ffffff00] mb-10 md:mb-32"
+    >
       <!-- Nav bar  -->
       <nav class="mb-10">
         <div class="navbar flex items-center justify-between bg-base-100">
           <div class="flex justify-between gap-1">
-
             <!-- icon  -->
-            <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-arrow">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill=""
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-8 p-1 rounded-full bg-arrow"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
             </svg>
-            
-            <a class="text-[32px] font-extrabold leading-[44px] ">Rinterio</a>
-            
+
+            <a class="text-[32px] font-extrabold leading-[44px]">Rinterio</a>
           </div>
 
           <!-- Nav Items  -->
-          <div class=" hidden lg:flex">
+          <div class="hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
               <li><a>Home</a></li>
               <li><a>Service</a></li>
               <li><a>Portfolio</a></li>
-              <li><a>Blogs</a></li>   
-              <li><a>Contact Us</a></li>   
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
             </ul>
           </div>
-          
+
           <!-- hamburger menu  -->
-            <div tabindex="0" role="button" class="lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-          
-            <!-- Button and icons  -->
-          <div class="hidden md:block md:flex md:items-center gap-4 ">
+          <div tabindex="0" role="button" class="lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+
+          <!-- Button and icons  -->
+          <div class="hidden  md:block md:flex md:items-center gap-4">
             <button class="btn btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor">
+                stroke="currentColor"
+              >
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
               </svg>
             </button>
-            <button class="btn  btn-circle">
+            <button class="btn btn-circle">
               <div class="indicator">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-5 h-5 ">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 w-5 h-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                  />
                 </svg>
 
-                <span class="badge badge-xs badge-primary indicator-item"></span>
+                <span
+                  class="badge badge-xs badge-primary indicator-item"
+                ></span>
               </div>
             </button>
-            <a class="btn bg-arrow text-[20px] font-extrabold leading-[27px] rounded-[32px]">Book Consult
-              <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-black text-white">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            <a
+              class="btn bg-arrow text-[20px] font-extrabold leading-[27px] rounded-[32px]"
+              >Book Consult
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill=""
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 p-1 rounded-full bg-black text-white"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
               </svg>
             </a>
           </div>
-          
         </div>
       </nav>
-      
+
       <!-- banner  -->
       <div class="text-center">
         <div class="max-w-[571px] mx-auto text-center mb-4 md:mb-6">
-          <img src="./images/banner.png" alt="">
+          <img src="./images/banner.png" alt="" />
         </div>
-        <h1 class="md:w-4/5 mx-auto text-3xl md:text-[64px] font-extrabold leading-8 md:leading-[87px] mb-4 md:mb-6">A barn house of this design has a striking appearance</h1>
-        <p class=" md:w-4/6 mx-auto text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8  ">It has created Easy Build to keep the light on “Confidence and Commitment to Quality" To provide proper planning and assurance of reliable services for crafting home in an economical price.</p>
-        <a class="btn btn-block text-[20px] font-extrabold leading-[27px] md:w-52  bg-[#abef5f80] rounded-[32px]">View Details
-          <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-black text-white">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+        <h1
+          class="md:w-4/5 mx-auto text-3xl md:text-[64px] font-extrabold leading-8 md:leading-[87px] mb-4 md:mb-6"
+        >
+          A barn house of this design has a striking appearance
+        </h1>
+        <p
+          class="md:w-4/6 mx-auto text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8"
+        >
+          It has created Easy Build to keep the light on “Confidence and
+          Commitment to Quality" To provide proper planning and assurance of
+          reliable services for crafting home in an economical price.
+        </p>
+        <a
+          class="btn btn-block text-[20px] font-extrabold leading-[27px] md:w-52 bg-[#abef5f80] rounded-[32px]"
+          >View Details
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill=""
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8 p-1 rounded-full bg-black text-white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
           </svg>
         </a>
       </div>
@@ -142,233 +208,540 @@
     <main class="bg-gray-100">
 
       <!-- About section  -->
-      <section class="relative lg:w-4/5 px-5 md:px-0 mx-auto mb-8 md:mb-28 flex flex-col md:flex-row md:items-center md:justify-between gap-y-5  pt-8 md:pt-[100px]">
-
+      <section
+        class="relative lg:w-4/5 px-5 md:px-0 mx-auto mb-8 md:mb-28 flex flex-col md:flex-row md:items-center md:justify-between gap-y-5 pt-8 md:pt-[100px]"
+      >
         <!-- Icon  -->
-         <div class="absolute hidden md:block top-[6%] -left-[3%]">
-          <img src="./images/Vector.png" alt="">
-         </div>
+        <div class="absolute hidden md:block top-[6%] -left-[3%]">
+          <img src="./images/Vector.png" alt="" />
+        </div>
         <!-- Content  -->
         <div class="max-w-[560px] text-center md:text-left" mb-5>
-          <a class=" btn bg-white font-bold rounded-[32px] mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-base">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          <a class="btn bg-white font-bold rounded-[32px] mb-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 text-base"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
             </svg>
             About Us
           </a>
-          <h2 class="text-2xl md:text-[40px] font-bold leading-[33px] md:leading-[55px] mb-4 md:mb-6 px-4 md:px-0">We design thoughtful, liveable spaces</h2>
-          <p class=" text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8 ">We are at your side to create your dream address. We are also partners in the journey with happiness and nobility. Our skilled engineers are ready to assist you.</p>
-            
-            <!-- Card-1  -->
-            <div class="flex gap-6 p-6 rounded-2xl bg-white mb-6 text-left">
-              <img src="./images/commercial.png" alt="">
-              <div class="space-y-[10px]">
-                <h3 class="text-[20px] text-[#494949] font-bold leading-[26px] ">Commercial</h3>
-                <p  class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8  ">Our commercial spaces are designed to enhance productivity and inspire creativity.</p>
-              </div>
-            </div>
+          <h2
+            class="text-2xl md:text-[40px] font-bold leading-[33px] md:leading-[55px] mb-4 md:mb-6 px-4 md:px-0"
+          >
+            We design thoughtful, liveable spaces
+          </h2>
+          <p
+            class="text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8"
+          >
+            We are at your side to create your dream address. We are also
+            partners in the journey with happiness and nobility. Our skilled
+            engineers are ready to assist you.
+          </p>
 
-            <!-- Card-2  -->
-            <div class="flex gap-6 p-6 rounded-2xl bg-white text-left">
-              <img src="./images/residential.png" alt="">
-              <div class="space-y-[10px]">
-                <h3 class="text-[20px] text-[#494949] font-bold leading-[26px] ">Residential</h3>
-                <p  class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8  ">We design homes that blend elegance with comfort that reflect your lifestyle and personal taste.</p>
-              </div>
+          <!-- Card-1  -->
+          <div class="flex gap-6 p-6 rounded-2xl bg-white mb-6 text-left">
+            <img src="./images/commercial.png" alt="" />
+            <div class="space-y-[10px]">
+              <h3 class="text-[20px] text-[#494949] font-bold leading-[26px]">
+                Commercial
+              </h3>
+              <p
+                class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8"
+              >
+                Our commercial spaces are designed to enhance productivity and
+                inspire creativity.
+              </p>
             </div>
+          </div>
+
+          <!-- Card-2  -->
+          <div class="flex gap-6 p-6 rounded-2xl bg-white text-left">
+            <img src="./images/residential.png" alt="" />
+            <div class="space-y-[10px]">
+              <h3 class="text-[20px] text-[#494949] font-bold leading-[26px]">
+                Residential
+              </h3>
+              <p
+                class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8"
+              >
+                We design homes that blend elegance with comfort that reflect
+                your lifestyle and personal taste.
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- image  -->
-         <div>
-          <img src="./images/Rectangle.png" alt="">
-         </div>
+        <div>
+          <img src="./images/Rectangle.png" alt="" />
+        </div>
+      </section>
 
+      <!-- Team section  -->
+
+      <section class="bg-white p-5 pt-10 py-12 md:py-24">
+        <!-- Container  -->
+        <div
+          class="md:w-5/6 mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-12 md:gap-24"
+        >
+          <!-- image  -->
+          <div
+            class="md:w-[450px] border-8 border-gray-300 rounded-2xl order-2 md:order-1"
+          >
+            <img
+              src="./images/team-1.png"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+          <!-- Text  -->
+          <div
+            class="max-w-[600px] border-l-4 md:border-l-8 border-lime-300 pl-4 md:pl-10 order-1 md:order-2"
+          >
+            <div>
+              <a
+                class="btn bg-inherit font-bold border-lime-300 rounded-[32px] mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 text-base"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                  />
+                </svg>
+                Who We Are
+              </a>
+            </div>
+            <h2
+              class="text-2xl md:text-[40px] font-bold leading-[55px] mb-4 md:mb-6"
+            >
+              A team with a lot of experience.
+            </h2>
+            <p
+              class="text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8"
+            >
+              Our team is a group of dedicated professionals, each bringing a
+              unique blend of expertise and creativity. We work collaboratively
+              to deliver innovative designs and high-quality results.
+            </p>
+            <div class="card bg-base-100 image-full md:w-[450px] shadow-xl">
+              <figure>
+                <img src="./images/member.png" alt="Shoes" class="w-full" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Team members</h2>
+                <p>Click the button bellow and see our team member profile.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn bg-lime-200">Visit Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- Badge section  -->
-       <section class="lg:w-4/5 p-5 md:p-8 mx-auto mt-12 mb-12 lg:mb-28 ">
-
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 p-6 border rounded-2xl">
+      <section class="lg:w-4/5 p-5 md:p-8 mx-auto mt-12 mb-12 lg:mb-28">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-4 gap-6 p-6 border rounded-2xl"
+        >
           <!-- Card - 1  -->
-          <div class="w-full md:w-[230px] p-5 md:p-6 text-center border rounded-2xl shadow-md mx-auto bg-white">
-          <div class="w-10 h-10 mx-auto">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
-            </svg>
-          </div>
-          <h2 class="text-[40px] font-extrabold leading-[55px]">235+</h2>
-          <p class="text-base text-[#737373] font-medium leading-[26px]">Happy Client Review</p>
+          <div
+            class="w-full md:w-[230px] p-5 md:p-6 text-center border rounded-2xl shadow-md mx-auto bg-white"
+          >
+            <div class="w-10 h-10 mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                />
+              </svg>
+            </div>
+            <h2 class="text-[40px] font-extrabold leading-[55px]">235+</h2>
+            <p class="text-base text-[#737373] font-medium leading-[26px]">
+              Happy Client Review
+            </p>
           </div>
 
           <!-- Card - 2  -->
-          <div class="w-full md:w-[230px] p-5  md:p-6 text-center border rounded-2xl shadow-md mx-auto bg-white">
-          <div class="w-10 h-10 mx-auto">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-            </svg>
-            
-          </div>
-          <h2 class="text-[40px] font-extrabold leading-[55px]">50+</h2>
-          <p class="text-base text-[#737373] font-medium leading-[26px]">Work Departments</p>
+          <div
+            class="w-full md:w-[230px] p-5 md:p-6 text-center border rounded-2xl shadow-md mx-auto bg-white"
+          >
+            <div class="w-10 h-10 mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                />
+              </svg>
+            </div>
+            <h2 class="text-[40px] font-extrabold leading-[55px]">50+</h2>
+            <p class="text-base text-[#737373] font-medium leading-[26px]">
+              Work Departments
+            </p>
           </div>
 
           <!-- Card - 3  -->
-          <div class="w-full md:w-[230px] p-5  md:p-6 text-center border rounded-2xl shadow-md mx-auto bg-white">
-          <div class="w-10 h-10 mx-auto">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
-            </svg>
-            
-          </div>
-          <h2 class="text-[40px] font-extrabold leading-[55px]">35K+</h2>
-          <p class="text-base text-[#737373] font-medium leading-[26px]">Our Happy Client</p>
+          <div
+            class="w-full md:w-[230px] p-5 md:p-6 text-center border rounded-2xl shadow-md mx-auto bg-white"
+          >
+            <div class="w-10 h-10 mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"
+                />
+              </svg>
+            </div>
+            <h2 class="text-[40px] font-extrabold leading-[55px]">35K+</h2>
+            <p class="text-base text-[#737373] font-medium leading-[26px]">
+              Our Happy Client
+            </p>
           </div>
 
           <!-- Card - 4  -->
-          <div class="w-full md:w-[230px] p-5  md:p-6 text-center border rounded-2xl shadow-md mx-auto bg-white ">
-          <div class="w-10 h-10 mx-auto">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
-            </svg>
-
-          </div>
-          <h2 class="text-[40px] font-extrabold leading-[55px]">307+</h2>
-          <p class="text-base text-[#737373] font-medium leading-[26px]">Our Happy Client</p>
+          <div
+            class="w-full md:w-[230px] p-5 md:p-6 text-center border rounded-2xl shadow-md mx-auto bg-white"
+          >
+            <div class="w-10 h-10 mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
+                />
+              </svg>
+            </div>
+            <h2 class="text-[40px] font-extrabold leading-[55px]">307+</h2>
+            <p class="text-base text-[#737373] font-medium leading-[26px]">
+              Our Happy Client
+            </p>
           </div>
         </div>
-        
-
-       </section>
+      </section>
 
       <!-- How we work section  -->
-       <section class="lg:w-4/5 px-5 md:px-0 mx-auto text-center mb-12 lg:mb-28">
-
+      <section class="lg:w-4/5 px-5 md:px-0 mx-auto text-center mb-12 lg:mb-28">
         <!-- content  -->
         <div class="text-center mb-4">
-          <a class=" btn bg-white text-base font-bold rounded-[32px]">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-base">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          <a class="btn bg-white text-base font-bold rounded-[32px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 text-base"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
             </svg>
             How We Works
           </a>
         </div>
-        <h2 class="text-2xl md:text-[40px] font-bold leading-[55px] mb-4 md:mb-6">Our Works Process</h2>
-        <p class=" md:w-7/12 mx-auto text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8  ">Our Process Ensures a Seamless Journey, Combining Collaborative Design, Rigorous Planning, and Expert Execution to Bring Your Vision to Life with Precision and Excellence.</p>
+        <h2
+          class="text-2xl md:text-[40px] font-bold leading-[55px] mb-4 md:mb-6"
+        >
+          Our Works Process
+        </h2>
+        <p
+          class="md:w-7/12 mx-auto text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8"
+        >
+          Our Process Ensures a Seamless Journey, Combining Collaborative
+          Design, Rigorous Planning, and Expert Execution to Bring Your Vision
+          to Life with Precision and Excellence.
+        </p>
 
         <!-- Card container -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-4">
-
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-4"
+        >
           <!-- Card-1  -->
-           <div class="md:w-56 p-6 text-left bg-[#E7C1D3] rounded-2xl space-y-[10px] mx-auto">
-            <img src="./images/concept.png" alt="" class="">
-            <h3 class="text-[20px] text-[#494949] font-bold leading-[26px] ">Concept</h3>
-            <p class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8">The concept phase is where your vision begins to take shape. We provide concept like you.</p>
-           </div>
+          <div
+            class="md:w-56 p-6 text-left bg-[#E7C1D3] rounded-2xl space-y-[10px] mx-auto"
+          >
+            <img src="./images/concept.png" alt="" class="" />
+            <h3 class="text-[20px] text-[#494949] font-bold leading-[26px]">
+              Concept
+            </h3>
+            <p
+              class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8"
+            >
+              The concept phase is where your vision begins to take shape. We
+              provide concept like you.
+            </p>
+          </div>
 
           <!-- Card-2  -->
-           <div class="md:w-56 p-6 text-left bg-yellow-200 rounded-2xl space-y-[10px] mx-auto">
-            <img src="./images/flow-chart.png" alt="">
-            <h3 class="text-[20px] text-[#494949] font-bold leading-[26px] ">Design Process</h3>
-            <p class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8">We transform your ideas into detailed plans, balancing creativity with functionality.</p>
-           </div>
+          <div
+            class="md:w-56 p-6 text-left bg-yellow-200 rounded-2xl space-y-[10px] mx-auto"
+          >
+            <img src="./images/flow-chart.png" alt="" />
+            <h3 class="text-[20px] text-[#494949] font-bold leading-[26px]">
+              Design Process
+            </h3>
+            <p
+              class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8"
+            >
+              We transform your ideas into detailed plans, balancing creativity
+              with functionality.
+            </p>
+          </div>
 
           <!-- Card-3  -->
-           <div class="md:w-56 p-6 text-left bg-green-200 rounded-2xl space-y-[10px] mx-auto">
-            <img src="./images/vision.png" alt="">
-            <h3 class="text-[20px] text-[#494949] font-bold leading-[26px] ">Supervision</h3>
-            <p class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8">We ensure construction adheres to the design specifications and quality standards.</p>
-           </div>
+          <div
+            class="md:w-56 p-6 text-left bg-green-200 rounded-2xl space-y-[10px] mx-auto"
+          >
+            <img src="./images/vision.png" alt="" />
+            <h3 class="text-[20px] text-[#494949] font-bold leading-[26px]">
+              Supervision
+            </h3>
+            <p
+              class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8"
+            >
+              We ensure construction adheres to the design specifications and
+              quality standards.
+            </p>
+          </div>
 
           <!-- Card-4  -->
-           <div class=" md:w-56 p-6 text-left bg-blue-200 rounded-2xl space-y-[10px] mx-auto">
-            <img src="./images/budget-planning.png" alt="">
-            <h3 class="text-[20px] text-[#494949] font-bold leading-[26px] ">Budget Planning</h3>
-            <p class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8">Budget planning involves meticulously to ensure financial efficiency and transparency.</p>
-           </div>
+          <div
+            class="md:w-56 p-6 text-left bg-blue-200 rounded-2xl space-y-[10px] mx-auto"
+          >
+            <img src="./images/budget-planning.png" alt="" />
+            <h3 class="text-[20px] text-[#494949] font-bold leading-[26px]">
+              Budget Planning
+            </h3>
+            <p
+              class="text-base text-[#737373] font-medium leading-[26px] mb-6 md:mb-8"
+            >
+              Budget planning involves meticulously to ensure financial
+              efficiency and transparency.
+            </p>
+          </div>
         </div>
+      </section>
 
-       </section>
-
-       <!-- Explore our Latest works  -->
-       <section class="lg:bg-white lg:p-[100px] mb-8 md:mb-0">
-
+      <!-- Explore our Latest works  -->
+      <section class="lg:bg-white lg:p-[100px] mb-8 md:mb-0">
         <!-- Container -->
         <div class="px-5 md:px-0 mt-12 mx-auto">
           <div class="text-center mb-4">
             <a class="btn bg-green-50 text-base font-bold rounded-[22px]">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-base">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 text-base"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                />
               </svg>
               Explore our Latest works
             </a>
           </div>
-          <h2 class="text-2xl text-center md:text-[40px] font-bold leading-[55px] mb-4 md:mb-6">Our Latest Portfolio</h2>
-          <p class="md:w-[750px] mx-auto text-sm md:text-base text-[#494949] font-medium text-center mb-6 md:mb-[34px]">Explore our latest portfolio to see a diverse range of recent projects showcasing our commitment to innovation, quality, and design excellence. Each project reflects our ability to adapt to unique challenges and create impactful, functional spaces tailored to our clients' visions.</p>
-      
+          <h2
+            class="text-2xl text-center md:text-[40px] font-bold leading-[55px] mb-4 md:mb-6"
+          >
+            Our Latest Portfolio
+          </h2>
+          <p
+            class="md:w-[750px] mx-auto text-sm md:text-base text-[#494949] font-medium text-center mb-6 md:mb-[34px]"
+          >
+            Explore our latest portfolio to see a diverse range of recent
+            projects showcasing our commitment to innovation, quality, and
+            design excellence. Each project reflects our ability to adapt to
+            unique challenges and create impactful, functional spaces tailored
+            to our clients' visions.
+          </p>
+
           <!-- Card items -->
           <div class="grid md:grid-cols-12 gap-6 px-3">
-
             <!-- Card-1 -->
-            <div class="flex flex-col md:flex-row md:justify-between md:items-center p-5 lg:p-6 border rounded-2xl gap-6 lg:col-span-8 bg-white">
+            <div
+              class="flex flex-col md:flex-row md:justify-between md:items-center p-5 lg:p-6 border rounded-2xl gap-6 lg:col-span-8 bg-white"
+            >
               <!-- image -->
               <div class="w-full md:w-[45%] h-[180px]">
-                <img src="./images/img1.png" alt="" class="h-full w-full object-cover rounded-xl">
+                <img
+                  src="./images/img1.png"
+                  alt=""
+                  class="h-full w-full object-cover rounded-xl"
+                />
               </div>
-      
+
               <!-- text -->
               <div class="w-full md:w-[50%]">
-                <h3 class="text-[20px] text-[#494949] font-bold leading-[26px] mb-4">Commercial</h3>
-                <p class="text-base text-[#737373] font-medium leading-[26px] mb-4 md:mb-5">Our commercial portfolio highlights a variety of dynamic spaces designed.</p>
+                <h3
+                  class="text-[20px] text-[#494949] font-bold leading-[26px] mb-4"
+                >
+                  Commercial
+                </h3>
+                <p
+                  class="text-base text-[#737373] font-medium leading-[26px] mb-4 md:mb-5"
+                >
+                  Our commercial portfolio highlights a variety of dynamic
+                  spaces designed.
+                </p>
                 <!-- button -->
-                <a class="btn btn-glass border-none shadow-none bg-white text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4">View Details
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <a
+                  class="btn btn-glass border-none shadow-none bg-white text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4"
+                  >View Details
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill=""
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
                   </svg>
                 </a>
               </div>
             </div>
-      
+
             <!-- Card-2 -->
             <div class="p-6 border rounded-2xl lg:col-span-4 bg-white">
               <!-- image -->
               <div class="w-full h-[180px]">
-                <img src="./images/img2.png" alt="" class="h-full w-full object-cover rounded-xl">
+                <img
+                  src="./images/img2.png"
+                  alt=""
+                  class="h-full w-full object-cover rounded-xl"
+                />
               </div>
             </div>
-      
+
             <!-- Card-3 -->
             <div class="p-6 border rounded-2xl lg:col-span-3 bg-white">
               <!-- image -->
               <div class="w-full h-[180px]">
-                <img src="./images/img3.png" alt="" class="h-full w-full object-cover rounded-xl">
+                <img
+                  src="./images/img3.png"
+                  alt=""
+                  class="h-full w-full object-cover rounded-xl"
+                />
               </div>
             </div>
-      
+
             <!-- Card-4 -->
-            <div class="flex flex-col md:flex-row md:justify-between md:items-center p-6 border rounded-2xl gap-6 lg:col-span-6 bg-white">
+            <div
+              class="flex flex-col md:flex-row md:justify-between md:items-center p-6 border rounded-2xl gap-6 lg:col-span-6 bg-white"
+            >
               <!-- image -->
               <div class="w-full md:w-[45%] h-[180px]">
-                <img src="./images/img4.png" alt="" class="h-full w-full object-cover rounded-xl">
+                <img
+                  src="./images/img4.png"
+                  alt=""
+                  class="h-full w-full object-cover rounded-xl"
+                />
               </div>
-      
+
               <!-- text -->
               <div class="w-full md:w-[50%]">
-                <h3 class="text-[20px] text-[#494949] font-bold leading-[26px] mb-4">Residential</h3>
-                <p class="text-base text-[#737373] font-medium leading-[26px] mb-4 md:mb-2">Our residential portfolio features a collection of thoughtfully designed homes.</p>
+                <h3
+                  class="text-[20px] text-[#494949] font-bold leading-[26px] mb-4"
+                >
+                  Residential
+                </h3>
+                <p
+                  class="text-base text-[#737373] font-medium leading-[26px] mb-4 md:mb-2"
+                >
+                  Our residential portfolio features a collection of
+                  thoughtfully designed homes.
+                </p>
                 <!-- button -->
-                <a class="btn btn-glass border-none shadow-none bg-white text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4">View Details
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <a
+                  class="btn btn-glass border-none shadow-none bg-white text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4"
+                  >View Details
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill=""
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
                   </svg>
                 </a>
               </div>
             </div>
-      
+
             <!-- Card-5 -->
             <div class="p-6 border rounded-2xl lg:col-span-3 bg-white">
               <!-- image -->
               <div class="w-full h-[180px]">
-                <img src="./images/img4.png" alt="" class="h-full w-full object-cover rounded-xl">
+                <img
+                  src="./images/img4.png"
+                  alt=""
+                  class="h-full w-full object-cover rounded-xl"
+                />
               </div>
             </div>
           </div>
@@ -377,35 +750,66 @@
 
       <!-- Rinterio News section  -->
 
-      <section class="lg:w-4/5 px-5 md:px-0 mt-12 mb-12 lg:mb-28 mx-auto ">
-
+      <section class="lg:w-4/5 px-5 md:px-0 mt-12 mb-12 lg:mb-28 mx-auto">
         <!-- Top button  -->
         <div class="text-center mb-4">
           <a class="btn bg-green-50 text-base font-bold rounded-[22px]">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-base">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 text-base"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
             </svg>
             Rinterio News
           </a>
         </div>
-        <h1 class="text-2xl md:text-[40px] text-center font-bold leading-[55px] mb-4 md:mb-6">Read Our Articles and News</h1>
-        <p class=" md:w-4/6 mx-auto text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8 text-center">Stay informed and inspired by exploring our articles and news. Discover insights into the latest trends, project updates, and expert advice in architecture and design, helping you stay ahead in the industry.</p>
+        <h1
+          class="text-2xl md:text-[40px] text-center font-bold leading-[55px] mb-4 md:mb-6"
+        >
+          Read Our Articles and News
+        </h1>
+        <p
+          class="md:w-4/6 mx-auto text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8 text-center"
+        >
+          Stay informed and inspired by exploring our articles and news.
+          Discover insights into the latest trends, project updates, and expert
+          advice in architecture and design, helping you stay ahead in the
+          industry.
+        </p>
 
         <!-- Card container  -->
-         <div class="grid grid-cols-1 lg:grid-cols-3 md:justify-between gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:justify-between gap-6">
           <!-- card-1  -->
           <div class="w-[374px] p-6 bg-white rounded-2xl mx-auto">
-            <img src="./images/article1.png" alt="" class="mb-4">
+            <img src="./images/article1.png" alt="" class="mb-4" />
             <!--badge container -->
             <div class="flex gap-4">
               <!-- badge-1  -->
               <div class="flex gap-[10px]">
                 <!-- icon  -->
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
                   </svg>
-                  
                 </div>
                 <p class="text-sm font-medium text-[#737373]">July14, 2024</p>
               </div>
@@ -413,40 +817,79 @@
               <div class="flex gap-[10px]">
                 <!-- icon  -->
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
                   </svg>
-                  
-                  
                 </div>
                 <p class="text-sm font-medium text-[#737373]">By Admin</p>
               </div>
               <div></div>
             </div>
-            <h3 class="text-[20px] text-[#494949] font-extrabold leading-[30px] mb-2">How to choose the furniture right  of your home.</h3>
-            <p class="text-base text-[#737373] font-medium leading-[26px] mb-3">Choosing the right furniture for your home involves balancing style, comfort, and functionality.</p>
+            <h3
+              class="text-[20px] text-[#494949] font-extrabold leading-[30px] mb-2"
+            >
+              How to choose the furniture right of your home.
+            </h3>
+            <p class="text-base text-[#737373] font-medium leading-[26px] mb-3">
+              Choosing the right furniture for your home involves balancing
+              style, comfort, and functionality.
+            </p>
 
             <!-- Button  -->
-            <a class="btn btn-glass border-none shadow-none bg-inherit text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4">Read More
-              <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            <a
+              class="btn btn-glass border-none shadow-none bg-inherit text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4"
+              >Read More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill=""
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
               </svg>
             </a>
           </div>
 
           <!-- card-2  -->
           <div class="w-[374px] p-6 bg-white rounded-2xl mx-auto">
-            <img src="./images/article1.png" alt="" class="mb-4">
+            <img src="./images/article1.png" alt="" class="mb-4" />
             <!--badge container -->
             <div class="flex gap-4">
               <!-- badge-1  -->
               <div class="flex gap-[10px]">
                 <!-- icon  -->
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
                   </svg>
-                  
                 </div>
                 <p class="text-sm font-medium text-[#737373]">July14, 2024</p>
               </div>
@@ -454,40 +897,79 @@
               <div class="flex gap-[10px]">
                 <!-- icon  -->
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
                   </svg>
-                  
-                  
                 </div>
                 <p class="text-sm font-medium text-[#737373]">By Admin</p>
               </div>
               <div></div>
             </div>
-            <h3 class="text-[20px] text-[#494949] font-extrabold leading-[30px] mb-2">How to choose the lighting right  of your home.</h3>
-            <p class="text-base text-[#737373] font-medium leading-[26px] mb-3">Choosing the right lighting for your home is key to setting the mood and enhancing functionality.</p>
+            <h3
+              class="text-[20px] text-[#494949] font-extrabold leading-[30px] mb-2"
+            >
+              How to choose the lighting right of your home.
+            </h3>
+            <p class="text-base text-[#737373] font-medium leading-[26px] mb-3">
+              Choosing the right lighting for your home is key to setting the
+              mood and enhancing functionality.
+            </p>
 
             <!-- Button  -->
-            <a class="btn btn-glass border-none shadow-none bg-inherit text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4">Read More
-              <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            <a
+              class="btn btn-glass border-none shadow-none bg-inherit text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4"
+              >Read More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill=""
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
               </svg>
             </a>
           </div>
 
           <!-- card-3  -->
           <div class="w-[374px] p-6 bg-white rounded-2xl mx-auto">
-            <img src="./images/article3.png" alt="" class="mb-4">
+            <img src="./images/article3.png" alt="" class="mb-4" />
             <!--badge container -->
             <div class="flex gap-4">
               <!-- badge-1  -->
               <div class="flex gap-[10px]">
                 <!-- icon  -->
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
                   </svg>
-                  
                 </div>
                 <p class="text-sm font-medium text-[#737373]">July14, 2024</p>
               </div>
@@ -495,104 +977,211 @@
               <div class="flex gap-[10px]">
                 <!-- icon  -->
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
                   </svg>
-                  
-                  
                 </div>
                 <p class="text-sm font-medium text-[#737373]">By Admin</p>
               </div>
               <div></div>
             </div>
-            <h3 class="text-[20px] text-[#494949] font-extrabold leading-[30px] mb-2">How to choose the color right  of your home.</h3>
-            <p class="text-base text-[#737373] font-medium leading-[26px] mb-3">Selecting the right colors for your home can transform its ambiance and reflect your personal style.</p>
+            <h3
+              class="text-[20px] text-[#494949] font-extrabold leading-[30px] mb-2"
+            >
+              How to choose the color right of your home.
+            </h3>
+            <p class="text-base text-[#737373] font-medium leading-[26px] mb-3">
+              Selecting the right colors for your home can transform its
+              ambiance and reflect your personal style.
+            </p>
 
             <!-- Button  -->
-            <a class="btn btn-glass border-none shadow-none bg-inherit text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4">Read More
-              <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            <a
+              class="btn btn-glass border-none shadow-none bg-inherit text-[20px] font-extrabold leading-[26px] rounded-[32px] pl-0 px-4"
+              >Read More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill=""
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 p-1 rounded-full bg-[#ABEF5F] text-black"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
               </svg>
             </a>
           </div>
-         </div>
-
+        </div>
       </section>
 
       <!-- Extra white line  -->
-      <hr class="border-4 border-white">
+      <hr class="border-4 border-white" />
 
       <!-- Discuss section  -->
-       <section class="discuss  bg-cover bg-center lg:py-[100px]">
+      <section class="discuss bg-cover bg-center lg:py-[100px]">
         <!-- Container  -->
         <div class="lg:w-4/5 px-5 py-8 md:px-0 mx-auto">
           <div class="text-center mb-4">
             <a class="btn bg-green-50 text-base font-bold rounded-[22px]">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-base">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 text-base"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                />
               </svg>
               Let’s Connect
             </a>
           </div>
-          <h2 class="text-2xl text-center md:text-[40px] font-bold leading-[55px] mb-4 md:mb-6">Let’s Discuss Next Project</h2>
-          <p class="md:w-[650px] mx-auto text-sm md:text-base text-[#494949] font-medium text-center mb-6 md:mb-[34px]">Ready to bring your next project to life? Let’s discuss your vision and explore how we can turn your ideas into reality. Contact us to start a conversation about your goals and how we can collaborate to create something exceptional together.</p>
+          <h2
+            class="text-2xl text-center md:text-[40px] font-bold leading-[55px] mb-4 md:mb-6"
+          >
+            Let’s Discuss Next Project
+          </h2>
+          <p
+            class="md:w-[650px] mx-auto text-sm md:text-base text-[#494949] font-medium text-center mb-6 md:mb-[34px]"
+          >
+            Ready to bring your next project to life? Let’s discuss your vision
+            and explore how we can turn your ideas into reality. Contact us to
+            start a conversation about your goals and how we can collaborate to
+            create something exceptional together.
+          </p>
 
           <!-- Form  -->
 
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <input type="text" placeholder="First Name*" class="input input-bordered rounded-[64px] w-full max-w-full p-5" />
-            <input type="text" placeholder="Last Name*" class="input input-bordered rounded-[64px] w-full max-w-full p-5" />
-            <input type="number" placeholder="Phone Number*" class="input input-bordered rounded-[64px] w-full max-w-full p-5" />
-            <input type="email" placeholder="Email*" class="input input-bordered rounded-[64px] w-full max-w-full p-5" />
-            <textarea class="textarea h-48 textarea-bordered rounded-[32px] w-full lg:col-span-2 p-5" placeholder="Write your message here"></textarea>
+            <input
+              type="text"
+              placeholder="First Name*"
+              class="input input-bordered rounded-[64px] w-full max-w-full p-5"
+            />
+            <input
+              type="text"
+              placeholder="Last Name*"
+              class="input input-bordered rounded-[64px] w-full max-w-full p-5"
+            />
+            <input
+              type="text"
+              placeholder="Phone Number*"
+              class="input input-bordered rounded-[64px] w-full max-w-full p-5"
+            />
+            <input
+              type="email"
+              placeholder="Email*"
+              class="input input-bordered rounded-[64px] w-full max-w-full p-5"
+            />
+            <textarea
+              class="textarea h-48 textarea-bordered rounded-[32px] w-full lg:col-span-2 p-5"
+              placeholder="Write your message here"
+            ></textarea>
             <!-- button  -->
-            <a class="btn bg-arrow text-[20px] font-extrabold leading-[27px] rounded-[32px] lg:col-span-2">Send Mail
-              <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-black text-white">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            <a
+              class="btn bg-arrow text-[20px] font-extrabold leading-[27px] rounded-[32px] lg:col-span-2"
+              >Send Mail
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill=""
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 p-1 rounded-full bg-black text-white"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
               </svg>
             </a>
           </div>
-          
         </div>
-
-       </section>
-         
+      </section>
     </main>
 
     <!-- Footer section  -->
-    <footer class="footer footer-center bg-black text-primary-content py-10 md:py-[100px]">
-
+    <footer
+      class="footer footer-center bg-black text-primary-content py-10 md:py-[100px]"
+    >
       <section class="lg:w-4/5 px-5 md:px-0 mt-6 md:mt-12 mx-auto">
         <!-- Title  -->
-      <div class="flex justify-between gap-1 mb-4">
+        <div class="flex justify-between gap-1 mb-4">
+          <!-- icon  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill=""
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8 p-1 rounded-full bg-arrow text-white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg>
 
-        <!-- icon  -->
-        <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-arrow text-white">
-          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-        </svg>
-        
-        <a class="text-[32px] font-extrabold leading-[44px] ">Rinterio</a>
-        
-      </div>
-      <p class=" md:w-4/6 mx-auto text-sm md:text-base text-[#737373] font-medium mb-8 md:mb-12">Thank you for visiting our site. We look forward to the opportunity to work with you. For inquiries or to discuss your project, please reach out to us. Stay connected and follow our updates for the latest in design and innovation.</p>
-      <nav class="grid grid-cols-1 md:grid-cols-5 md:justify-between gap-4 md:gap-[150px] mb-8 md:mb-12">
-        <a class="link link-hover">Home</a>
-        <a class="link link-hover">Service</a>
-        <a class="link link-hover">Portfolio</a>
-        <a class="link link-hover">Blogs</a>
-        <a class="link link-hover">Contact Us</a>
-      </nav>
+          <a class="text-[32px] font-extrabold leading-[44px]">Rinterio</a>
+        </div>
+        <p
+          class="md:w-4/6 mx-auto text-sm md:text-base text-[#737373] font-medium mb-8 md:mb-12"
+        >
+          Thank you for visiting our site. We look forward to the opportunity to
+          work with you. For inquiries or to discuss your project, please reach
+          out to us. Stay connected and follow our updates for the latest in
+          design and innovation.
+        </p>
+        <nav
+          class="grid grid-cols-1 md:grid-cols-5 md:justify-between gap-4 md:gap-[150px] mb-8 md:mb-12"
+        >
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Service</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>
 
-      <!-- button  -->
-      <a class="btn bg-arrow rounded-[32px] text-[20px] font-extrabold leading-[27px]">Book Consult
-        <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-1 rounded-full bg-black text-white">
-          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-        </svg>
-      </a>
-      </section>
-      
-    </footer>
-
+        <!-- button  -->
+        <a
+          class="btn bg-arrow rounded-[32px] text-[20px] font-extrabold leading-[27px]"
+          >Book Consult
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill=""
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8 p-1 rounded-full bg-black text-white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg>
+        </a>
       </section>
     </footer>
   </body>
