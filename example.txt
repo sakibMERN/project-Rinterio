@@ -54,7 +54,7 @@
 
     <-- DESCRIPTION -->
 
-    class=" md:w-4/6 mx-auto text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8  " 
+    class=" md:w-4/6 mx-auto text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8" 
 
 
     <-- Sub-section title -->
