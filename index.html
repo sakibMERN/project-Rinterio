@@ -48,12 +48,13 @@
     </script>
   </head>
   <body class="font-manrope">
+    
     <!-- Header section  -->
     <header
       class="lg:w-4/5 px-5 md:px-0 mt-12 mx-auto bg-gradient-to-t from-[#ffffff] to-[rgba(#ffffff00] mb-10 md:mb-32"
     >
       <!-- Nav bar  -->
-      <nav class="mb-10">
+      <nav class="mb-10 bg-gradient-to-b from-white to-white/0">
         <div class="navbar flex items-center justify-between bg-base-100">
           <div class="flex justify-between gap-1">
             <!-- icon  -->
@@ -337,9 +338,7 @@
             <p
               class="text-sm md:text-base text-[#494949] font-medium mb-6 md:mb-8"
             >
-              Our team is a group of dedicated professionals, each bringing a
-              unique blend of expertise and creativity. We work collaboratively
-              to deliver innovative designs and high-quality results.
+            Our team is a group of dedicated professionals, each bringing a unique blend of expertise and creativity. We work collaboratively to deliver innovative designs and high-quality results, ensuring that every project reflects our commitment to excellence and client satisfaction.
             </p>
             <div class="card bg-base-100 image-full md:w-[450px] shadow-xl">
               <figure>
@@ -674,11 +673,23 @@
             </div>
 
             <!-- Card-3 -->
-            <div class="p-6 border rounded-2xl lg:col-span-3 bg-white">
+            <div class="p-6 border rounded-2xl lg:col-span-3 bg-white hidden md:block">
               <!-- image -->
               <div class="w-full h-[180px]">
                 <img
                   src="./images/img3.png"
+                  alt=""
+                  class="h-full w-full object-cover rounded-xl"
+                />
+              </div>
+            </div>
+
+            <!-- Card-3-a -->
+            <div class="p-6 border rounded-2xl lg:col-span-3 bg-white md:hidden">
+              <!-- image -->
+              <div class="w-full h-[180px]">
+                <img
+                  src="./images/img5.png"
                   alt=""
                   class="h-full w-full object-cover rounded-xl"
                 />
@@ -734,16 +745,29 @@
             </div>
 
             <!-- Card-5 -->
-            <div class="p-6 border rounded-2xl lg:col-span-3 bg-white">
+            <div class="p-6 border rounded-2xl lg:col-span-3 bg-white md:hidden">
               <!-- image -->
               <div class="w-full h-[180px]">
                 <img
-                  src="./images/img4.png"
+                  src="./images/img3.png"
                   alt=""
                   class="h-full w-full object-cover rounded-xl"
                 />
               </div>
             </div>
+
+            <!-- Card-5 -->
+            <div class="p-6 border rounded-2xl lg:col-span-3 bg-white">
+              <!-- image -->
+              <div class="w-full h-[180px]">
+                <img
+                  src="./images/img5.png"
+                  alt=""
+                  class="h-full w-full object-cover rounded-xl"
+                />
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
